@@ -14,7 +14,7 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        moveToFirstScreen = (Button) findViewById(R.id.button2);
+        moveToFirstScreen = findViewById(R.id.button2);
         moveToFirstScreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
