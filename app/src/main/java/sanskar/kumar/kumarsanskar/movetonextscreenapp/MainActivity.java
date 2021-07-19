@@ -18,6 +18,10 @@ public class MainActivity extends AppCompatActivity {
         moveToNextScreen.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /*
+                intent is used to move from one activity to another
+                the first parameter is the current location and second is the target location
+                 */
                 Intent intent1 = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(intent1);
                 finish();
