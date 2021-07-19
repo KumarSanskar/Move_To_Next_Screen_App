@@ -1,0 +1,2 @@
+rootProject.name = "Move To Next Screen App"
+include ':app'
